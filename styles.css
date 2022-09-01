@@ -1,37 +1,67 @@
-main{
+main {
     display: block;
     margin: auto;
 }
 
-h1{
+#heading-text{
     text-align: center;
+    font-weight: bold;
+    font-size: 2.35rem;
+    color: #3f3f46;
+    margin: 3rem 0;
 }
 
-.container{
-    outline: 2px solid black;
-    max-width: 60%;
-    margin: auto;
+body{
+    margin: 0;
+    background-image: url(./img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
-#date-of-birth{
+.container {
+    width: 60%;
+    margin: 8rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(140deg, #0891b2, #f0fdf4);
+    border-radius: 1rem;
+    padding: 2rem;
+
+}
+
+input {
     display: block;
-    margin: auto;
-    width: 120px;
+    margin: 0.5rem auto;
+    width: 220px;
+    height: 25px;
     padding: 0.3rem;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 0.5rem;
 }
 
-#lucky-number{
+.input-label{
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+#check-button {
+    font-size: 1rem;
     display: block;
     margin: auto;
-    width: 120px;
-    padding: 0.3rem;
+    padding: 0.75rem;
+    border-radius: 2rem;
+    background-color: #075985;
+    border-color: white;
+    color: white;
 }
 
-#check-button{
-    display: block;
-    margin: auto;
-    padding: 0.5rem;
-}
-
-#input-label{
+#output-box{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #404040;
 }

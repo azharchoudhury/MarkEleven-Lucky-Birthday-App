@@ -12,7 +12,9 @@ function checkIfBirthdayIsLucky()
     if(dob&&luckyNumber.value)
         compareValues(sum, luckyNumber.value);
     else
-        outputBox.innerText = "Please enter both the fields 😠"
+    {
+        outputBox.innerText = "Please enter both the fields 😠";
+    }
 }
 
 function calculateSum(dob)
