@@ -13,7 +13,7 @@ main {
 
 body{
     margin: 0;
-    background-image: url(./img.jpg);
+    background-image: url(./images/img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
