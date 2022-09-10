@@ -4,12 +4,12 @@
 
 ## This is a fun birthday app made using Vanilla JS
 
-Tech Stack: HTML CSS JavaScript
+### Tech Stack: HTML CSS JavaScript
 
 ---
 <br>
 
-### This program takes the user input for the birth date and the lucky number of the user and tells the user if the birth date is lucky for the user or not.
+#### This program takes the user input for the birth date and the lucky number of the user and tells the user if the birth date is lucky for the user or not.
 
 <br>
 
