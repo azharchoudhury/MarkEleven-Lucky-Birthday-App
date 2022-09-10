@@ -10,7 +10,15 @@ function checkIfBirthdayIsLucky()
     const dob = dateOfBirth.value;
     const sum = calculateSum(dob);
     if(dob&&luckyNumber.value)
-        compareValues(sum, luckyNumber.value);
+    {
+        if(luckyNumber.value<0)
+        {
+            outputBox.innerText = "Your lucky number should be greater than 0";
+        }
+        else{
+            compareValues(sum, luckyNumber.value);
+        }
+    }
     else
     {
         outputBox.innerText = "Please enter both the fields 😠";

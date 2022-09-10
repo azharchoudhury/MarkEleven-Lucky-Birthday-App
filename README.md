@@ -4,6 +4,8 @@
 
 ## This is a fun birthday app made using Vanilla JS
 
+Tech Stack: HTML CSS JavaScript
+
 ---
 <br>
 
